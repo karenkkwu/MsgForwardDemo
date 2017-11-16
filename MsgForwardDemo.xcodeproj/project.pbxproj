@@ -14,6 +14,8 @@
 		49E411FF1FBD91890092821D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E411FE1FBD91890092821D /* Assets.xcassets */; };
 		49E412021FBD91890092821D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E412001FBD91890092821D /* LaunchScreen.storyboard */; };
 		49E412051FBD91890092821D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E412041FBD91890092821D /* main.m */; };
+		49E4122D1FBD939D0092821D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E4122C1FBD939D0092821D /* Person.m */; };
+		49E412301FBD93AC0092821D /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E4122F1FBD93AC0092821D /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		49E412011FBD91890092821D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E412031FBD91890092821D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49E412041FBD91890092821D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49E4122B1FBD939D0092821D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		49E4122C1FBD939D0092821D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		49E4122E1FBD93AC0092821D /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		49E4122F1FBD93AC0092821D /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				49E411F31FBD91890092821D /* AppDelegate.m */,
 				49E411F51FBD91890092821D /* ViewController.h */,
 				49E411F61FBD91890092821D /* ViewController.m */,
+				49E4122B1FBD939D0092821D /* Person.h */,
+				49E4122C1FBD939D0092821D /* Person.m */,
+				49E4122E1FBD93AC0092821D /* Car.h */,
+				49E4122F1FBD93AC0092821D /* Car.m */,
 				49E411F81FBD91890092821D /* Main.storyboard */,
 				49E411FE1FBD91890092821D /* Assets.xcassets */,
 				49E412001FBD91890092821D /* LaunchScreen.storyboard */,
@@ -145,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E412301FBD93AC0092821D /* Car.m in Sources */,
 				49E411FD1FBD91890092821D /* MsgForwardDemo.xcdatamodeld in Sources */,
 				49E411F71FBD91890092821D /* ViewController.m in Sources */,
+				49E4122D1FBD939D0092821D /* Person.m in Sources */,
 				49E412051FBD91890092821D /* main.m in Sources */,
 				49E411F41FBD91890092821D /* AppDelegate.m in Sources */,
 			);
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MsgForwardDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wutingting.cn.MsgForwardDemo;
@@ -296,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MsgForwardDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wutingting.cn.MsgForwardDemo;
